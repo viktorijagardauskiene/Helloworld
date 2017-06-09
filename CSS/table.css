@@ -2,7 +2,7 @@ table
  th {
 	border: 5px solid red;
 	border-collapse: collapse;
-	background-color: #88cc00;
+	background-color: rgba(255, 204, 102, 0.40);
 }
 td {
 	border: 1px solid black;
