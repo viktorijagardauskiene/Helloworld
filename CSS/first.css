@@ -1,50 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-.links {  
-	font-size:300%;
 
-	}
+.links {
+  font-size: 300%;
+}
+
 body {
-	background-color: #33cccc;
-	font-family: 'Amatic SC', cursive;
+  background-color: #33cccc;
+  font-family: 'Amatic SC', cursive;
 }
-a {
-	text-decoration: none;
-	color: #003399;
-}
-h1 
-		{
-			color:pink;
-			font-size:60px;
-		}
-		p
-		{
-			color:#000099;
-			font-size:30px;
-			border:1px solid black;
-			margin:20px;
-		}
-		a
-		{
-			color:pink;
-			font-size:60px;
-		}
 
-table
- th {
-	border: 5px solid red;
-	border-collapse: collapse;
-	background-color: rgba(255, 204, 102, 0.40);
+.apieh1 {
+  color: pink;
+  font-size: 60px;
 }
+
+p {
+  color: #000099;
+  font-size: 30px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.apie {
+  color: pink;
+  font-size: 60px;
+}
+
+.fpm {
+  text-align: center;
+  color: #000099;
+  font-size: 60px;
+}
+
+th {
+  border: 5px solid red;
+  border-collapse: collapse;
+  background-color: rgba(255, 204, 102, 0.40);
+}
+
 td {
-	border: 1px solid black;
-	border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-th, td {
-	padding:15px;
-}
+
+th,
 td {
-	text-align: center;
+  padding: 15px;
 }
+
+td {
+  text-align: center;
+}
+
 table {
-	border-spacing:0px;
+  border-spacing: 0px;
+}
+
+ul {
+  color: #000099;
 }
