@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 .links {  
 	font-size:300%;
+
 	}
 body {
 	background-color: #33cccc;
@@ -8,6 +9,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: #003399;
 }
 h1 
 		{
@@ -16,15 +18,15 @@ h1
 		}
 		p
 		{
-			color:blue;
+			color:#000099;
 			font-size:30px;
 			border:1px solid black;
 			margin:20px;
 		}
 		a
 		{
-			color:green;
-			font-size:40px;
+			color:pink;
+			font-size:60px;
 		}
 
 table
