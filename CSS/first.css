@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 .links {
-  font-size: 300%;
+  text-align: center;
+  padding-top: 18px;
+  padding: 45px;
+  font-size: 230%;
+  word-spacing: 45px;
+ }
+
+a {
+	color: white;
+	text-decoration: none;
 }
 
 body {
-	background-image: 'images/bricks.jpg';
-    font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', cursive;
 }
 
 .apieh1 {
@@ -56,6 +64,3 @@ table {
   border-spacing: 0px;
 }
 
-ul {
-  color: #000099;
-}
