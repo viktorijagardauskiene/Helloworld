@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
- .fplinks {
+
+.fplinks {
  	padding-top: 15px;
  }
 
@@ -72,11 +73,29 @@ li a:hover:not(.active) {
   letter-spacing: 1px;
 }
 
-.apieh1 {
+.h1 {
   text-align: center;
   color: white;
   font-size: 50px;
   font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+}
+
+.media-text {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  border: none;
+  text-align: justify;
+  background: rgba(0, 153, 230, 0.60);
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.katinas {
+  margin-right: 20px;
 }
 
 body {
@@ -107,3 +126,18 @@ table {
   border-spacing: 0px;
 }
 
+.footer {
+    margin: 20px;
+    background-color: rgba(0, 153, 230, 0.70);
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    text-decoration: bold;
+    padding: 0;
+ }
+
+ iframe {
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 0;
+ }
