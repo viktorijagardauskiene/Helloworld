@@ -2,12 +2,6 @@
  .fplinks {
  	padding-top: 15px;
  }
-button {
-	text-align: center;
-	padding: 0;
-	background: transparent;
-	border: none;
-}
 
 ul {
 	list-style-type: none;
@@ -15,18 +9,25 @@ ul {
     padding: 10px;
     overflow: hidden;
     background-color: rgba(0, 153, 230, 0.70);
+
 }
 
 li {
     float: left;
+    display: inline;
 }
 
 li a {
     color: white;
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     padding: 14px 50px;
     text-decoration: bold;
+}
+
+.fbicon {
+	padding-left: 350px;
+	margin: 0;
 }
 
 .fptext {
@@ -41,7 +42,7 @@ body {
 }
 
 .apieh1 {
-  color: pink;
+  color: white;
   font-size: 60px;
 }
 
@@ -50,17 +51,6 @@ p {
   font-size: 30px;
   border: 1px solid black;
   margin: 20px;
-}
-
-.apie {
-  color: pink;
-  font-size: 60px;
-}
-
-.fpm {
-  text-align: center;
-  color: #000099;
-  font-size: 60px;
 }
 
 th {
