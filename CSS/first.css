@@ -57,21 +57,30 @@ li a:hover:not(.active) {
   letter-spacing: 1px;
 }
 
+.apie-text {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  border: none;
+  text-align: justify;
+  column-count: 2;
+  column-gap: 30px;
+  background: rgba(0, 153, 230, 0.60);
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.apieh1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Cabin', sans-serif;
+}
+
 body {
 	font-family: 'Amatic SC', cursive;
-}
-
-.apieh1 {
-  color: white;
-  font-size: 60px;
-}
-
-.apieh1 {
-  color: #000099;
-  
-  border: 1px solid black;
-  margin: 20px;
-  
 }
 
 th {
