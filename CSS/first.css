@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
  .fplinks {
  	padding-top: 15px;
  }
@@ -9,7 +10,6 @@ ul {
     padding: 10px;
     overflow: hidden;
     background-color: rgba(0, 153, 230, 0.70);
-
 }
 
 li {
@@ -21,8 +21,20 @@ li a {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding: 14px 50px;
+    padding: 30px 50px;
     text-decoration: bold;
+}
+
+/*Active button shows your direction at menu*/
+a.active {
+    background-color: rgb(80, 191, 251);
+    color: white;
+}
+
+/*Active button when mouse is on*/
+li a:hover:not(.active) {
+    background-color: rgb(80, 191, 251);
+    color: white;
 }
 
 .fbicon {
@@ -30,11 +42,19 @@ li a {
 	margin: 0;
 }
 
-.fptext {
+.fpparagraph {
+  font-family: 'Cabin', sans-serif;
 	color: white;
 	border: none;
 	text-align: justify;
 	column-count: 2;
+  column-gap: 30px;
+  background: rgba(0, 153, 230, 0.60);
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 body {
@@ -46,13 +66,12 @@ body {
   font-size: 60px;
 }
 
-p {
+.apieh1 {
   color: #000099;
-  font-size: 30px;
+  
   border: 1px solid black;
   margin: 20px;
-  background: rgba(0, 153, 230, 0.60);
-  padding: 10px;
+  
 }
 
 th {
