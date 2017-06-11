@@ -1,16 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
-.links {
-  text-align: center;
-  padding-top: 18px;
-  padding: 45px;
-  font-size: 230%;
-  word-spacing: 45px;
+ .fplinks {
+ 	padding-top: 15px;
  }
+button {
+	text-align: center;
+	padding: 0;
+	background: transparent;
+	border: none;
+}
 
-a {
+ul {
+	list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 153, 230, 0.70);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 14px 50px;
+    text-decoration: bold;
+}
+
+.fptext {
 	color: white;
-	text-decoration: none;
+	border: none;
+	text-align: justify;
+	column-count: 2;
 }
 
 body {
