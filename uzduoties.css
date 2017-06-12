@@ -3,23 +3,42 @@ body {
 }
 
 .body {
-	background-color: green;
+	background-color: rgba(0, 128, 0, 0.90);
 }
 
 .menu {
 	color: white;
-	font-size: 18px;
-
+	font-size: 24px;
+	text-align: center;
 }
 
 ul {
 	list-style: none;
+	padding: 30px;
+
 }
 
 li {
 	display: inline;
-	padding: 10px;
+	padding: 100px;
 	text-transform: uppercase;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+a.active {
+    background-color: rgb(0, 179, 0);
+    color: white;
+}
+
+
+li a:hover:not(.active) {
+    background-color: rgb(0, 179, 0);
+    color: white;
 }
 
 
