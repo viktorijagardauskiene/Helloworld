@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+}
+
+.body {
+	background-color: green;
+}
+
+.menu {
+	color: white;
+	font-size: 18px;
+
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+}
