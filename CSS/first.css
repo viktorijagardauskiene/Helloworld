@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 
+
+body {
+   background-color: blue;
+   transition: background-color 1s;
+}
+
 .fplinks {
  	padding-top: 15px;
  }
@@ -39,7 +45,6 @@ li a:hover:not(.active) {
 }
 
 .fbicon {
-	padding-left: 350px;
 	margin: 0;
   float: right;
 }
@@ -145,3 +150,9 @@ tr:hover {background-color: #f5f5f5}
   margin-left: 20px;
   margin-top: 0;
  }
+
+ @media screen and (min-width: 640px) {
+  body {
+    background-color: black;
+  }
+}
