@@ -25,23 +25,21 @@ body {
 	margin: 30px;
 	padding: 30px;
 	color: white;
-	
+	float: left;
+
 }
 
-.li2 {
-	display: block;
-	margin: 0px;
-	padding: 10px;
-	
+.second-content {
+	float: left;
 }
 
-li {
+.menu li {
 	display: inline;
 	padding: 100px;
 	text-transform: uppercase;
 }
 
-li a {
+.menu li a {
 	color: white;
 	text-decoration: none;
 	padding: 30px;
@@ -69,6 +67,15 @@ li a:hover:not(.active) {
  	padding-bottom: 30px;
  }
 
+ .menu3-text {
+ 	color: white;
+ 	text-align: justify;
+ 	font-size: 18px;
+ 	margin: 20px;
+ 	padding-bottom: 30px;
+ 	float: left; 	
+ }
+
 .img-geles {
 	text-align: center;
 }
@@ -81,7 +88,7 @@ h1 {
 }
 
 iframe {
-	float: right;
+	float: left;
 	margin: 30px;
 }
 
