@@ -41,6 +41,7 @@ li a:hover:not(.active) {
 .fbicon {
 	padding-left: 350px;
 	margin: 0;
+  float: right;
 }
 
 .fpparagraph {
