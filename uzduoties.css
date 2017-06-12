@@ -4,6 +4,7 @@ body {
 
 .body {
 	background-color: rgba(0, 128, 0, 0.90);
+	margin: 30px;
 }
 
 .menu {
@@ -12,10 +13,26 @@ body {
 	text-align: center;
 }
 
-ul {
-	list-style: none;
+.menu-list {
+	list-style-type: none;
 	padding: 30px;
+	margin: 30px;
 
+}
+
+.menu2-list {
+	list-style-type: circle;
+	margin: 30px;
+	padding: 30px;
+	color: white;
+	
+}
+
+.li2 {
+	display: block;
+	margin: 0px;
+	padding: 10px;
+	
 }
 
 li {
@@ -42,6 +59,31 @@ li a:hover:not(.active) {
     color: white;
 }
 
+.menu1-text {
+	column-count: 3;
+ 	column-gap: 30px;
+ 	color: white;
+ 	text-align: justify;
+ 	font-size: 18px;
+ 	margin: 20px;
+ 	padding-bottom: 30px;
+ }
+
+.img-geles {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 24px;
+	padding-left: 30px;
+	text-transform: uppercase; 
+}
+
+iframe {
+	float: right;
+	margin: 30px;
+}
 
 @media screen and (min-width: 1024px) {
 
