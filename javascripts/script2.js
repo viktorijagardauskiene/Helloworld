@@ -15,3 +15,8 @@ function alert_mygtukas() {
 			function nieko_mygtukas() {
 				console.log("Buvo paspaustas mygtukas");
 			}
+
+			function parodyk_preke(numeris) {
+			var prekes = ['pienas', 'duona', 'gira', 'sokoladas'];
+			document.getElementById('preke'),innerHTML = prekes[numeris];
+		}
