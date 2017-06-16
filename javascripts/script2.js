@@ -9,4 +9,5 @@ function alert_mygtukas() {
 			}
 			function neteisingai() {
 				document.getElementById('klausimas').innerHTML = 'Atsakymas neteisingas';
+				alert("Tu nemoki skaičiuoti");
 			}
