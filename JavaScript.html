@@ -1,11 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<script>
-			function alert_mygtukas() {
-				document.getElementById('demo').innerHTML = 'Blogai';
-			}
-		</script>
+		<script src="javascripts/script2.js"></script>
 	</head>
 		<body>
 			
@@ -21,6 +17,12 @@
 			<button type="button" onclick="document.getElementById('demo').innerHTML = 'Viso gero'">Now click Me!</button>
 
 			<button type="button" onclick="alert_mygtukas()">Never click Me!</button>
+			<button type="button" onclick="date_mygtukas()">Click Me!</button>
+
+
+		<h1 id="klausimas">Kiek bus du kartus po du?</h1>
+			<button type="button" onclick="neteisingai()">Vienas</button>
+			<button type="button" onclick="teisingai()">Keturi</button>
 
 		</body>
 </html>
