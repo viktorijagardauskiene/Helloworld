@@ -11,3 +11,7 @@ function alert_mygtukas() {
 				document.getElementById('klausimas').innerHTML = 'Atsakymas neteisingas';
 				alert("Tu nemoki skaičiuoti");
 			}
+
+			function nieko_mygtukas() {
+				console.log("Buvo paspaustas mygtukas");
+			}
