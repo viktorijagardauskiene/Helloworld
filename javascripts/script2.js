@@ -18,5 +18,5 @@ function alert_mygtukas() {
 
 			function parodyk_preke(numeris) {
 			var prekes = ['pienas', 'duona', 'gira', 'sokoladas'];
-			document.getElementById('preke'),innerHTML = prekes[numeris];
+			document.getElementById('preke').innerHTML = prekes[numeris];
 		}
