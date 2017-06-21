@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="javascripts/script2.js"></script>
+	</head>
+		<body>
+			
+			<button onclick="document.getElementById('myImage').src='images/katinas.jpg'">Katinas</button>
+
+			<img id="myImage" src="images/katinas.jpg" style="width:100px">
+
+			<button onclick="document.getElementById('myImage').src='images/logo.png'">Logo</button><br></br>
+
+			<p id="demo">Tekstas kuris pasikeis</p>
+
+			<button type="button" onclick="document.getElementById('demo').innerHTML = 'Labas'">Click Me first!</button>
+			<button type="button" onclick="document.getElementById('demo').innerHTML = 'Viso gero'">Now click Me!</button>
+
+			<button type="button" onclick="alert_mygtukas()">Never click Me!</button>
+			<button type="button" onclick="date_mygtukas()">Click Me!</button>
+
+
+		<h1 id="klausimas">Kiek bus du kartus po du?</h1>
+			<button type="button" onclick="neteisingai()">Vienas</button>
+			<button type="button" onclick="teisingai()">Keturi</button><br></br>
+
+
+			<button type="button" onclick="nieko_mygtukas()">Mygtukas kuris nieko nedaro</button><br></br>
+
+			<script> // reikalingi komentarai
+			var prekes_pavadinimas = "saldainis";
+			var prekes_kaina = 1;
+			var pristatymo_kaina = 20;
+			var sudetis = ["cukrus", "sokoladas", "riesutai"]; 
+
+			var is_viso = prekes_kaina + pristatymo_kaina;
+
+			document.write(prekes_pavadinimas);
+			document.write("<br />Kaina: " + prekes_kaina);
+			document.write("<br />Sudetyje yra: " + sudetis[1]);
+			document.write("<br />Moketi: " + is_viso);
+			</script>
+
+			<div id="preke" style="padding: 25px; background-color: gray; color: white;"> Prekes nera
+			</div> 
+
+			<button onclick="parodyk_preke(0)">Parodyk preke 1</button>
+			<button onclick="parodyk_preke(1)">Parodyk preke 2</button>
+			<button onclick="parodyk_preke(2)">Parodyk preke 3</button>
+			<button onclick="parodyk_preke(3)">Parodyk preke 4</button>
+
+		//cheetsheet susirasti css java ir kitiems
+
+		</body>
+</html>
